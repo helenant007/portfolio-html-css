@@ -1,0 +1,166 @@
+body {
+    background: linear-gradient(0deg, rgba(1,161,197,1) 0%, rgba(69,220,155,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Readex Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border-radius: 3px;
+    border: 1px solid rgba(0 0 0 /50%);
+    width: 95%;
+    padding: 6px 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+button {
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #ced4da;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: rgba(0 0 0 / 55%);
+}
+
+a:hover{
+    color: rgba(1,161,197,1);
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.header-nav {
+    background-color: white;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
+    margin-bottom: 50px;
+}
+
+.header-nav h1 {
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-group {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.footer-copyright {
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Resume */
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 125px;
+}
+
+.full-name {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.title-section {
+    background-color: rgba(1,161,197,0.8);
+    color: white;
+    padding: 5px 0 5px 20px;
+}
+
+.exp-content {
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.sublist-exp {
+    margin-bottom: 20px;
+}
+
+.work-exp {
+    line-height: 2;
+}
+
+.edu-exp {
+    line-height: 2;
+}
+
+.work-exp-title, .edu-exp-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-exp {
+    border-bottom-style: dashed;
+    border-bottom-width: thin;
+    line-height: 2;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* Contact Me */
+.contact-form-label {
+    font-weight: 600;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
+    width: 80%;
+}
